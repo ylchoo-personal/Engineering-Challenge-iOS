@@ -26,7 +26,7 @@ You'll need to build an app that is able to retrieve nutrition information for d
 
 
 ### Bits and Pieces to take note of
-* Use http://test.holmusk.com/food/search?q=<food_query> to search for food items.
+* Use http://test.holmusk.com/food/search?q=*food_query* to search for food items.
 * Present the data in your app. How you present will be a direct reflection of your creativity and motivation so we encourage you to spend as much time on this part as possible. You are not limited to TableViews or CollectionViews, feel free to create your own representations. One of our favorites is the parallax based scrollview.
 * You will need to implement autocomplete with a search view [With a maximum of 10 results so that the interface does not look cluttered] so that users are able to easily enter food items they have had. 
 * You will need to store all of your results into CoreData/Realm(http://realm.io) /FMDB/SQlite in the most efficient way possible. Please do log the time taken for data storage and retrieval in the console. 
