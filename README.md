@@ -1,6 +1,6 @@
 # iOS-Developer-Challenge
 
-`version 1.5`
+`version 1.6`
 `challenge status: open`
 
 Welcome! We've been expecting you. Holmusk is a big data based high tech company specializing in healthcare in Singapore. 
@@ -15,6 +15,7 @@ This is the Holmusk iOS developer challenge. The rules of the challenge are very
 * You will be able to submit the challenge anytime you are ready provided the challenge is still open
 * Your code should be commented
 * You should implement **Autolayout** and **Size Classes** to support *all* iPhone sizes. Only one orientation is enough - we're not too fiesty on that
+* Because we, at Holmusk, take code organization seriously, please do ensure your source files are organized when you submit. We really like the VIPER architecture (http://www.objc.io/issue-13/viper.html) but please do ensure that, at the minimum, you follow MVC and your code organization reflects that.
 * You are required to fork this repo and submit a pull request
 * If you wish to not make public, your submission, please complete the code in your local repository and email a patch file to careers@holmusk.com
 * Please note that you will also be judged on the elegance of your code, level of abstraction and technical skills presented in the implementation. For more details, refer to the Judging Criteria section below.
