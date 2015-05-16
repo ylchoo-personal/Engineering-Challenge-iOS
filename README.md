@@ -1,6 +1,6 @@
 # iOS-Developer-Challenge
 
-`version 1.4`
+`version 1.5`
 `challenge status: open`
 
 Welcome! We've been expecting you. Holmusk is a big data based high tech company specializing in healthcare in Singapore. 
@@ -41,4 +41,5 @@ You'll need to build an app that is able to retrieve nutrition information for d
 At Holmusk we do our best to go the extra mile and as such you would recieve brownie points if 
 * your app provides simple analytics such as keeping track of a users diet for the day and providing relevant graphs, animations etc.
 * you use Realm instead of core data 
-
+* you create at least one custom control that uses `IBInspectable` and `IBDesignable`
+* you use  Kimono's API builer (https://www.kimonolabs.com) to extract food related data from MyfitnessPal (https://www.myfitnesspal.com), FatSecrets (http://www.fatsecret.com.sg) or other food websites such as CalorieKing (http://www.calorieking.com).
