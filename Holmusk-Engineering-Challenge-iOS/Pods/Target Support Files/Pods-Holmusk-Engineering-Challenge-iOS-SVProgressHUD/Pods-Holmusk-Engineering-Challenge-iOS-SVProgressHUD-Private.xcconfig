@@ -1,0 +1,6 @@
+#include "Pods-Holmusk-Engineering-Challenge-iOS-SVProgressHUD.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SVProgressHUD" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BEMSimpleLineGraph" "${PODS_ROOT}/Headers/Public/MLPAutoCompleteTextField" "${PODS_ROOT}/Headers/Public/RZCellSizeManager" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/Realm/realm" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = ${PODS_HOLMUSK_ENGINEERING_CHALLENGE_IOS_SVPROGRESSHUD_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

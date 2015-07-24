@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'Holmusk-Engineering-Challenge-iOS' do
+
+pod 'BEMSimpleLineGraph'
+pod 'Realm'
+pod 'MLPAutoCompleteTextField', '~> 1.4'
+pod 'SVProgressHUD'
+pod 'RZCellSizeManager', '~>1.1'
+
+end
+
+target 'Holmusk-Engineering-Challenge-iOSTests' do
+
+pod 'Realm/Headers'
+
+end
+

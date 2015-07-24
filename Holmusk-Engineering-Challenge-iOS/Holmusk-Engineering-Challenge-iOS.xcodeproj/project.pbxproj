@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B06DAB71B61D13900B31AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAB61B61D13900B31AF1 /* main.m */; };
+		6B06DABA1B61D13900B31AF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAB91B61D13900B31AF1 /* AppDelegate.m */; };
+		6B06DAC01B61D13900B31AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B06DABE1B61D13900B31AF1 /* Main.storyboard */; };
+		6B06DAC21B61D13900B31AF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B06DAC11B61D13900B31AF1 /* Images.xcassets */; };
+		6B06DAC51B61D13900B31AF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B06DAC31B61D13900B31AF1 /* LaunchScreen.xib */; };
+		6B06DAD11B61D13900B31AF1 /* Holmusk_Engineering_Challenge_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAD01B61D13900B31AF1 /* Holmusk_Engineering_Challenge_iOSTests.m */; };
+		6B06DAFE1B61D5B900B31AF1 /* AddFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DADC1B61D5B900B31AF1 /* AddFoodViewController.m */; };
+		6B06DAFF1B61D5B900B31AF1 /* EnterAmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DADE1B61D5B900B31AF1 /* EnterAmountViewController.m */; };
+		6B06DB001B61D5B900B31AF1 /* EnterAmountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B06DADF1B61D5B900B31AF1 /* EnterAmountViewController.xib */; };
+		6B06DB011B61D5B900B31AF1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAE11B61D5B900B31AF1 /* MainViewController.m */; };
+		6B06DB021B61D5B900B31AF1 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAE41B61D5B900B31AF1 /* NSString+Additions.m */; };
+		6B06DB031B61D5B900B31AF1 /* RoundCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAE71B61D5B900B31AF1 /* RoundCornerView.m */; };
+		6B06DB041B61D5B900B31AF1 /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAEA1B61D5B900B31AF1 /* FoodDetailTableViewCell.m */; };
+		6B06DB051B61D5B900B31AF1 /* FoodDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B06DAEB1B61D5B900B31AF1 /* FoodDetailTableViewCell.xib */; };
+		6B06DB061B61D5B900B31AF1 /* DataPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAEE1B61D5B900B31AF1 /* DataPlot.m */; };
+		6B06DB071B61D5B900B31AF1 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAF01B61D5B900B31AF1 /* Food.m */; };
+		6B06DB081B61D5B900B31AF1 /* Nutrient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAF21B61D5B900B31AF1 /* Nutrient.m */; };
+		6B06DB091B61D5B900B31AF1 /* NutrientDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAF41B61D5B900B31AF1 /* NutrientDetail.m */; };
+		6B06DB0A1B61D5B900B31AF1 /* Portion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAF61B61D5B900B31AF1 /* Portion.m */; };
+		6B06DB0B1B61D5B900B31AF1 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAF81B61D5B900B31AF1 /* Unit.m */; };
+		6B06DB0C1B61D5B900B31AF1 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAFA1B61D5B900B31AF1 /* UserData.m */; };
+		6B06DB0D1B61D5B900B31AF1 /* AppSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DAFD1B61D5B900B31AF1 /* AppSharedInstance.m */; };
+		6B06DB141B61D78200B31AF1 /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DB111B61D78200B31AF1 /* MJPopupBackgroundView.m */; };
+		6B06DB151B61D78200B31AF1 /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06DB131B61D78200B31AF1 /* UIViewController+MJPopupViewController.m */; };
+		C2A05C58BB29D435C8C25264 /* libPods-Holmusk-Engineering-Challenge-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D2CD30B41629F189A03CDF /* libPods-Holmusk-Engineering-Challenge-iOS.a */; };
+		CA293F3D50F0667851766729 /* libPods-Holmusk-Engineering-Challenge-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B634E167DB6EB1ECDF0BFEAF /* libPods-Holmusk-Engineering-Challenge-iOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B06DACB1B61D13900B31AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B06DAA91B61D13900B31AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B06DAB01B61D13900B31AF1;
+			remoteInfo = "Holmusk-Engineering-Challenge-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F6B6C615BD15E2F75D71AF /* Pods-Holmusk-Engineering-Challenge-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holmusk-Engineering-Challenge-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Holmusk-Engineering-Challenge-iOS/Pods-Holmusk-Engineering-Challenge-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		40D2CD30B41629F189A03CDF /* libPods-Holmusk-Engineering-Challenge-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Holmusk-Engineering-Challenge-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61467578E3D5B7CAEA933DDA /* Pods-Holmusk-Engineering-Challenge-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holmusk-Engineering-Challenge-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Holmusk-Engineering-Challenge-iOSTests/Pods-Holmusk-Engineering-Challenge-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		640CB0A206F4B916EA459B76 /* Pods-Holmusk-Engineering-Challenge-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holmusk-Engineering-Challenge-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Holmusk-Engineering-Challenge-iOSTests/Pods-Holmusk-Engineering-Challenge-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B06DAB11B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holmusk-Engineering-Challenge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B06DAB51B61D13900B31AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B06DAB61B61D13900B31AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B06DAB81B61D13900B31AF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B06DAB91B61D13900B31AF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B06DABF1B61D13900B31AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B06DAC11B61D13900B31AF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B06DAC41B61D13900B31AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6B06DACA1B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holmusk-Engineering-Challenge-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B06DACF1B61D13900B31AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B06DAD01B61D13900B31AF1 /* Holmusk_Engineering_Challenge_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Holmusk_Engineering_Challenge_iOSTests.m; sourceTree = "<group>"; };
+		6B06DADB1B61D5B900B31AF1 /* AddFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodViewController.h; sourceTree = "<group>"; };
+		6B06DADC1B61D5B900B31AF1 /* AddFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodViewController.m; sourceTree = "<group>"; };
+		6B06DADD1B61D5B900B31AF1 /* EnterAmountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAmountViewController.h; sourceTree = "<group>"; };
+		6B06DADE1B61D5B900B31AF1 /* EnterAmountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAmountViewController.m; sourceTree = "<group>"; };
+		6B06DADF1B61D5B900B31AF1 /* EnterAmountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterAmountViewController.xib; sourceTree = "<group>"; };
+		6B06DAE01B61D5B900B31AF1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6B06DAE11B61D5B900B31AF1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6B06DAE31B61D5B900B31AF1 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		6B06DAE41B61D5B900B31AF1 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		6B06DAE61B61D5B900B31AF1 /* RoundCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundCornerView.h; sourceTree = "<group>"; };
+		6B06DAE71B61D5B900B31AF1 /* RoundCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundCornerView.m; sourceTree = "<group>"; };
+		6B06DAE91B61D5B900B31AF1 /* FoodDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailTableViewCell.h; sourceTree = "<group>"; };
+		6B06DAEA1B61D5B900B31AF1 /* FoodDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailTableViewCell.m; sourceTree = "<group>"; };
+		6B06DAEB1B61D5B900B31AF1 /* FoodDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDetailTableViewCell.xib; sourceTree = "<group>"; };
+		6B06DAED1B61D5B900B31AF1 /* DataPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPlot.h; sourceTree = "<group>"; };
+		6B06DAEE1B61D5B900B31AF1 /* DataPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPlot.m; sourceTree = "<group>"; };
+		6B06DAEF1B61D5B900B31AF1 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		6B06DAF01B61D5B900B31AF1 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		6B06DAF11B61D5B900B31AF1 /* Nutrient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nutrient.h; sourceTree = "<group>"; };
+		6B06DAF21B61D5B900B31AF1 /* Nutrient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nutrient.m; sourceTree = "<group>"; };
+		6B06DAF31B61D5B900B31AF1 /* NutrientDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientDetail.h; sourceTree = "<group>"; };
+		6B06DAF41B61D5B900B31AF1 /* NutrientDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientDetail.m; sourceTree = "<group>"; };
+		6B06DAF51B61D5B900B31AF1 /* Portion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portion.h; sourceTree = "<group>"; };
+		6B06DAF61B61D5B900B31AF1 /* Portion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portion.m; sourceTree = "<group>"; };
+		6B06DAF71B61D5B900B31AF1 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		6B06DAF81B61D5B900B31AF1 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		6B06DAF91B61D5B900B31AF1 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		6B06DAFA1B61D5B900B31AF1 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		6B06DAFC1B61D5B900B31AF1 /* AppSharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSharedInstance.h; sourceTree = "<group>"; };
+		6B06DAFD1B61D5B900B31AF1 /* AppSharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSharedInstance.m; sourceTree = "<group>"; };
+		6B06DB101B61D78200B31AF1 /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		6B06DB111B61D78200B31AF1 /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		6B06DB121B61D78200B31AF1 /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		6B06DB131B61D78200B31AF1 /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		B634E167DB6EB1ECDF0BFEAF /* libPods-Holmusk-Engineering-Challenge-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Holmusk-Engineering-Challenge-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4949D26996C66AE0B23B407 /* Pods-Holmusk-Engineering-Challenge-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holmusk-Engineering-Challenge-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Holmusk-Engineering-Challenge-iOS/Pods-Holmusk-Engineering-Challenge-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B06DAAE1B61D13900B31AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A05C58BB29D435C8C25264 /* libPods-Holmusk-Engineering-Challenge-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B06DAC71B61D13900B31AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA293F3D50F0667851766729 /* libPods-Holmusk-Engineering-Challenge-iOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1993518057A650F12F5AF825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D2CD30B41629F189A03CDF /* libPods-Holmusk-Engineering-Challenge-iOS.a */,
+				B634E167DB6EB1ECDF0BFEAF /* libPods-Holmusk-Engineering-Challenge-iOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F275790F3F8DC48400EE155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F6B6C615BD15E2F75D71AF /* Pods-Holmusk-Engineering-Challenge-iOS.debug.xcconfig */,
+				D4949D26996C66AE0B23B407 /* Pods-Holmusk-Engineering-Challenge-iOS.release.xcconfig */,
+				640CB0A206F4B916EA459B76 /* Pods-Holmusk-Engineering-Challenge-iOSTests.debug.xcconfig */,
+				61467578E3D5B7CAEA933DDA /* Pods-Holmusk-Engineering-Challenge-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B06DAA81B61D13900B31AF1 = {
+			isa = PBXGroup;
+			children = (
+				6B06DAB31B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS */,
+				6B06DACD1B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests */,
+				6B06DAB21B61D13900B31AF1 /* Products */,
+				4F275790F3F8DC48400EE155 /* Pods */,
+				1993518057A650F12F5AF825 /* Frameworks */,
+				6B06DB0E1B61D78200B31AF1 /* Vendor */,
+			);
+			sourceTree = "<group>";
+		};
+		6B06DAB21B61D13900B31AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAB11B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS.app */,
+				6B06DACA1B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B06DAB31B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DADA1B61D5B900B31AF1 /* Controller */,
+				6B06DAE21B61D5B900B31AF1 /* CustomClass */,
+				6B06DAE51B61D5B900B31AF1 /* CustomView */,
+				6B06DAEC1B61D5B900B31AF1 /* Model */,
+				6B06DAFB1B61D5B900B31AF1 /* SharedInstance */,
+				6B06DAB81B61D13900B31AF1 /* AppDelegate.h */,
+				6B06DAB91B61D13900B31AF1 /* AppDelegate.m */,
+				6B06DABE1B61D13900B31AF1 /* Main.storyboard */,
+				6B06DAC11B61D13900B31AF1 /* Images.xcassets */,
+				6B06DAC31B61D13900B31AF1 /* LaunchScreen.xib */,
+				6B06DAB41B61D13900B31AF1 /* Supporting Files */,
+			);
+			path = "Holmusk-Engineering-Challenge-iOS";
+			sourceTree = "<group>";
+		};
+		6B06DAB41B61D13900B31AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAB51B61D13900B31AF1 /* Info.plist */,
+				6B06DAB61B61D13900B31AF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B06DACD1B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAD01B61D13900B31AF1 /* Holmusk_Engineering_Challenge_iOSTests.m */,
+				6B06DACE1B61D13900B31AF1 /* Supporting Files */,
+			);
+			path = "Holmusk-Engineering-Challenge-iOSTests";
+			sourceTree = "<group>";
+		};
+		6B06DACE1B61D13900B31AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DACF1B61D13900B31AF1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B06DADA1B61D5B900B31AF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DADB1B61D5B900B31AF1 /* AddFoodViewController.h */,
+				6B06DADC1B61D5B900B31AF1 /* AddFoodViewController.m */,
+				6B06DADD1B61D5B900B31AF1 /* EnterAmountViewController.h */,
+				6B06DADE1B61D5B900B31AF1 /* EnterAmountViewController.m */,
+				6B06DADF1B61D5B900B31AF1 /* EnterAmountViewController.xib */,
+				6B06DAE01B61D5B900B31AF1 /* MainViewController.h */,
+				6B06DAE11B61D5B900B31AF1 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B06DAE21B61D5B900B31AF1 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAE31B61D5B900B31AF1 /* NSString+Additions.h */,
+				6B06DAE41B61D5B900B31AF1 /* NSString+Additions.m */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		6B06DAE51B61D5B900B31AF1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAE61B61D5B900B31AF1 /* RoundCornerView.h */,
+				6B06DAE71B61D5B900B31AF1 /* RoundCornerView.m */,
+				6B06DAE81B61D5B900B31AF1 /* UITableViewCell */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		6B06DAE81B61D5B900B31AF1 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAE91B61D5B900B31AF1 /* FoodDetailTableViewCell.h */,
+				6B06DAEA1B61D5B900B31AF1 /* FoodDetailTableViewCell.m */,
+				6B06DAEB1B61D5B900B31AF1 /* FoodDetailTableViewCell.xib */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		6B06DAEC1B61D5B900B31AF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAED1B61D5B900B31AF1 /* DataPlot.h */,
+				6B06DAEE1B61D5B900B31AF1 /* DataPlot.m */,
+				6B06DAEF1B61D5B900B31AF1 /* Food.h */,
+				6B06DAF01B61D5B900B31AF1 /* Food.m */,
+				6B06DAF11B61D5B900B31AF1 /* Nutrient.h */,
+				6B06DAF21B61D5B900B31AF1 /* Nutrient.m */,
+				6B06DAF31B61D5B900B31AF1 /* NutrientDetail.h */,
+				6B06DAF41B61D5B900B31AF1 /* NutrientDetail.m */,
+				6B06DAF51B61D5B900B31AF1 /* Portion.h */,
+				6B06DAF61B61D5B900B31AF1 /* Portion.m */,
+				6B06DAF71B61D5B900B31AF1 /* Unit.h */,
+				6B06DAF81B61D5B900B31AF1 /* Unit.m */,
+				6B06DAF91B61D5B900B31AF1 /* UserData.h */,
+				6B06DAFA1B61D5B900B31AF1 /* UserData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B06DAFB1B61D5B900B31AF1 /* SharedInstance */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DAFC1B61D5B900B31AF1 /* AppSharedInstance.h */,
+				6B06DAFD1B61D5B900B31AF1 /* AppSharedInstance.m */,
+			);
+			path = SharedInstance;
+			sourceTree = "<group>";
+		};
+		6B06DB0E1B61D78200B31AF1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DB0F1B61D78200B31AF1 /* MJPopupBackgroundView */,
+			);
+			name = Vendor;
+			path = "Holmusk-Engineering-Challenge-iOS/Vendor";
+			sourceTree = "<group>";
+		};
+		6B06DB0F1B61D78200B31AF1 /* MJPopupBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				6B06DB101B61D78200B31AF1 /* MJPopupBackgroundView.h */,
+				6B06DB111B61D78200B31AF1 /* MJPopupBackgroundView.m */,
+				6B06DB121B61D78200B31AF1 /* UIViewController+MJPopupViewController.h */,
+				6B06DB131B61D78200B31AF1 /* UIViewController+MJPopupViewController.m */,
+			);
+			path = MJPopupBackgroundView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B06DAB01B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B06DAD41B61D13900B31AF1 /* Build configuration list for PBXNativeTarget "Holmusk-Engineering-Challenge-iOS" */;
+			buildPhases = (
+				73C395E8DC08C637842E495F /* Check Pods Manifest.lock */,
+				6B06DAAD1B61D13900B31AF1 /* Sources */,
+				6B06DAAE1B61D13900B31AF1 /* Frameworks */,
+				6B06DAAF1B61D13900B31AF1 /* Resources */,
+				C4D4F16F7234A8E58238128F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Holmusk-Engineering-Challenge-iOS";
+			productName = "Holmusk-Engineering-Challenge-iOS";
+			productReference = 6B06DAB11B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B06DAC91B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B06DAD71B61D13900B31AF1 /* Build configuration list for PBXNativeTarget "Holmusk-Engineering-Challenge-iOSTests" */;
+			buildPhases = (
+				934B4BA7E9FBBCE88D3FCDEE /* Check Pods Manifest.lock */,
+				6B06DAC61B61D13900B31AF1 /* Sources */,
+				6B06DAC71B61D13900B31AF1 /* Frameworks */,
+				6B06DAC81B61D13900B31AF1 /* Resources */,
+				39E6BB0CCAA9F242177CC3DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B06DACC1B61D13900B31AF1 /* PBXTargetDependency */,
+			);
+			name = "Holmusk-Engineering-Challenge-iOSTests";
+			productName = "Holmusk-Engineering-Challenge-iOSTests";
+			productReference = 6B06DACA1B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B06DAA91B61D13900B31AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yew Liang Choo";
+				TargetAttributes = {
+					6B06DAB01B61D13900B31AF1 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6B06DAC91B61D13900B31AF1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6B06DAB01B61D13900B31AF1;
+					};
+				};
+			};
+			buildConfigurationList = 6B06DAAC1B61D13900B31AF1 /* Build configuration list for PBXProject "Holmusk-Engineering-Challenge-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B06DAA81B61D13900B31AF1;
+			productRefGroup = 6B06DAB21B61D13900B31AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B06DAB01B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS */,
+				6B06DAC91B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B06DAAF1B61D13900B31AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B06DAC01B61D13900B31AF1 /* Main.storyboard in Resources */,
+				6B06DB051B61D5B900B31AF1 /* FoodDetailTableViewCell.xib in Resources */,
+				6B06DAC51B61D13900B31AF1 /* LaunchScreen.xib in Resources */,
+				6B06DAC21B61D13900B31AF1 /* Images.xcassets in Resources */,
+				6B06DB001B61D5B900B31AF1 /* EnterAmountViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B06DAC81B61D13900B31AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39E6BB0CCAA9F242177CC3DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Holmusk-Engineering-Challenge-iOSTests/Pods-Holmusk-Engineering-Challenge-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C395E8DC08C637842E495F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		934B4BA7E9FBBCE88D3FCDEE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D4F16F7234A8E58238128F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Holmusk-Engineering-Challenge-iOS/Pods-Holmusk-Engineering-Challenge-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B06DAAD1B61D13900B31AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B06DB0B1B61D5B900B31AF1 /* Unit.m in Sources */,
+				6B06DB031B61D5B900B31AF1 /* RoundCornerView.m in Sources */,
+				6B06DB021B61D5B900B31AF1 /* NSString+Additions.m in Sources */,
+				6B06DB071B61D5B900B31AF1 /* Food.m in Sources */,
+				6B06DB0D1B61D5B900B31AF1 /* AppSharedInstance.m in Sources */,
+				6B06DB011B61D5B900B31AF1 /* MainViewController.m in Sources */,
+				6B06DABA1B61D13900B31AF1 /* AppDelegate.m in Sources */,
+				6B06DB081B61D5B900B31AF1 /* Nutrient.m in Sources */,
+				6B06DAFF1B61D5B900B31AF1 /* EnterAmountViewController.m in Sources */,
+				6B06DB061B61D5B900B31AF1 /* DataPlot.m in Sources */,
+				6B06DAFE1B61D5B900B31AF1 /* AddFoodViewController.m in Sources */,
+				6B06DB141B61D78200B31AF1 /* MJPopupBackgroundView.m in Sources */,
+				6B06DB041B61D5B900B31AF1 /* FoodDetailTableViewCell.m in Sources */,
+				6B06DB0A1B61D5B900B31AF1 /* Portion.m in Sources */,
+				6B06DB091B61D5B900B31AF1 /* NutrientDetail.m in Sources */,
+				6B06DB0C1B61D5B900B31AF1 /* UserData.m in Sources */,
+				6B06DAB71B61D13900B31AF1 /* main.m in Sources */,
+				6B06DB151B61D78200B31AF1 /* UIViewController+MJPopupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B06DAC61B61D13900B31AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B06DAD11B61D13900B31AF1 /* Holmusk_Engineering_Challenge_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B06DACC1B61D13900B31AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B06DAB01B61D13900B31AF1 /* Holmusk-Engineering-Challenge-iOS */;
+			targetProxy = 6B06DACB1B61D13900B31AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B06DABE1B61D13900B31AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B06DABF1B61D13900B31AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B06DAC31B61D13900B31AF1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B06DAC41B61D13900B31AF1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B06DAD21B61D13900B31AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B06DAD31B61D13900B31AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B06DAD51B61D13900B31AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F6B6C615BD15E2F75D71AF /* Pods-Holmusk-Engineering-Challenge-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Holmusk-Engineering-Challenge-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B06DAD61B61D13900B31AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4949D26996C66AE0B23B407 /* Pods-Holmusk-Engineering-Challenge-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Holmusk-Engineering-Challenge-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B06DAD81B61D13900B31AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640CB0A206F4B916EA459B76 /* Pods-Holmusk-Engineering-Challenge-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Holmusk-Engineering-Challenge-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holmusk-Engineering-Challenge-iOS.app/Holmusk-Engineering-Challenge-iOS";
+			};
+			name = Debug;
+		};
+		6B06DAD91B61D13900B31AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61467578E3D5B7CAEA933DDA /* Pods-Holmusk-Engineering-Challenge-iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Holmusk-Engineering-Challenge-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holmusk-Engineering-Challenge-iOS.app/Holmusk-Engineering-Challenge-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B06DAAC1B61D13900B31AF1 /* Build configuration list for PBXProject "Holmusk-Engineering-Challenge-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B06DAD21B61D13900B31AF1 /* Debug */,
+				6B06DAD31B61D13900B31AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B06DAD41B61D13900B31AF1 /* Build configuration list for PBXNativeTarget "Holmusk-Engineering-Challenge-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B06DAD51B61D13900B31AF1 /* Debug */,
+				6B06DAD61B61D13900B31AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B06DAD71B61D13900B31AF1 /* Build configuration list for PBXNativeTarget "Holmusk-Engineering-Challenge-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B06DAD81B61D13900B31AF1 /* Debug */,
+				6B06DAD91B61D13900B31AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B06DAA91B61D13900B31AF1 /* Project object */;
+}

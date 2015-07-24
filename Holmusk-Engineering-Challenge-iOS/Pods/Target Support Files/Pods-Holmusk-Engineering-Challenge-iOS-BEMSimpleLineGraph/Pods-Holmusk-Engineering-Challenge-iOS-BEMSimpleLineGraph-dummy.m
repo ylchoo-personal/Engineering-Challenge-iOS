@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Holmusk_Engineering_Challenge_iOS_BEMSimpleLineGraph : NSObject
+@end
+@implementation PodsDummy_Pods_Holmusk_Engineering_Challenge_iOS_BEMSimpleLineGraph
+@end
